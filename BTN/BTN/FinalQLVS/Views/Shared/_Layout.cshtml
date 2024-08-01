@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>FPT BTEC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 10px 20px;
+            }
+
+                .navbar a:hover {
+                    background-color: #575757;
+                }
+
+        .hero {
+            background: url('https://btec.fpt.edu.vn/wp-content/uploads/2022/08/order-13-01-2.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+            .hero h1 {
+                font-size: 3em;
+                margin: 0;
+            }
+
+        .content {
+            padding: 40px 20px;
+        }
+
+            .content h2 {
+                margin-bottom: 20px;
+                font-size: 2em;
+            }
+
+            .content p {
+                font-size: 1.2em;
+                line-height: 1.6;
+                max-width: 800px;
+                margin: auto;
+            }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: left;
+            position: relative;
+            background-image: url('https://www.transparenttextures.com/patterns/green-gobbler.png');
+        }
+
+            .box h2 {
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><b>FPT</b> BTEC</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#advice" class="w3-bar-item w3-button">Advice</a>
+                <a href="#address" class="w3-bar-item w3-button">Address</a>
+                <a class="w3-bar-item w3-button" asp-area="" asp-controller="Login_page" asp-action="Index">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div>
+            <h1>Welcome to FPT BTEC</h1>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="w3-content content" id="advice">
+        <div class="box">
+            <h2>Advice for Students</h2>
+            <p>
+                As a student at FPT BTEC, you are embarking on an exciting journey of learning and discovery. Here are some tips to help you succeed:
+            </p>
+            <p>
+                1. Stay curious and keep exploring. The world is full of knowledge waiting to be discovered.<br>
+                2. Manage your time effectively. Balancing studies, extracurricular activities, and personal time is crucial.<br>
+                3. Don't hesitate to ask for help. Your teachers and peers are here to support you.<br>
+                4. Stay organized. Keep track of your assignments, projects, and deadlines.<br>
+                5. Take care of your health. A healthy mind and body are essential for success.
+            </p>
+        </div>
+    </div>
+
+    <div class="w3-content content" id="address">
+        <div class="box">
+            <h2>Our Address</h2>
+            <p>FPT BTEC International College<br>Block C, 8 Ton That Thuyet, My Dinh, Tu Liem, Hanoi, Vietnam</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 FPT BTEC. All rights reserved.</p>
+    </div>
+
+    @RenderBody()
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

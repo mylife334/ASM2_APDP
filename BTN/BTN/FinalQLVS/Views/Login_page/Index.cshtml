@@ -1,0 +1,184 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login & Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/css/Loginstyle.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+
+        .cont {
+            display: flex;
+            width: 450px; /* Increased width */
+            background: rgba(255, 255, 255, 0.9); /* Slightly more opaque */
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 40px; /* Increased padding */
+            flex-direction: column;
+            align-items: center;
+            z-index: 1;
+            position: relative;
+        }
+
+        .form {
+            width: 100%;
+        }
+
+            .form h2 {
+                margin: 0 0 20px;
+                font-size: 2.5em; /* Larger font size */
+                color: #ff66b2;
+            }
+
+            .form label {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .form span {
+                font-size: 0.9em;
+                color: #666;
+            }
+
+            .form input {
+                width: calc(100% - 20px);
+                padding: 10px;
+                margin: 5px 0 10px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                outline: none;
+                box-sizing: border-box;
+            }
+
+                .form input:focus {
+                    border-color: #ff66b2;
+                }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .form button {
+            width: 48%; /* Adjusted width to fit two buttons side by side */
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: #ff66b2;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .form button:hover {
+                background-color: #ff99cc;
+            }
+
+        .back-button {
+            background-color: #ccc;
+            color: #333;
+        }
+
+            .back-button:hover {
+                background-color: #aaa;
+            }
+
+        .invalid-feedback {
+            color: red;
+            font-size: 0.9em;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .cute-icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .decoration {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: #ff66b2;
+            border-radius: 50%;
+        }
+
+        .decoration1 {
+            top: -25px;
+            left: -25px;
+        }
+
+        .decoration2 {
+            bottom: -25px;
+            right: -25px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="https://media.istockphoto.com/id/1695081221/vi/video/m%E1%BB%99t-con-g%E1%BA%A5u-tr%C3%BAc-tr%C3%A8o-l%C3%AAn-c%C3%A2y-%C4%91%E1%BB%83-ch%C6%A1i.mp4?s=mp4-640x640-is&k=20&c=ywCG-V8Go3cT_w0Bf4uVY1zVqhdot0fWql8b7Byx9wg=" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="cont">
+        <div class="decoration decoration1"></div>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.t1CfPiLTZNyApGw9naNb_wHaHa&pid=Api&P=0&h=180" alt="Cute Bear" class="cute-icon">
+        <div class="form sign-in">
+            <h2>Sign In</h2>
+            <form asp-action="Login" method="post">
+                <label>
+                    <span>Username</span>
+                    <input type="Email" name="Email" class="form-control" required />
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" name="Password" class="form-control" required />
+                </label>
+                @if (ViewBag.Message != null)
+                {
+                    <div class="invalid-feedback d-block">
+                        @ViewBag.Message
+                    </div>
+                }
+                <div class="button-container">
+                    <button class="submit btn btn-primary" type="submit">Sign In</button>
+                    <button class="submit btn back-button" type="button" onclick="location.href='@Url.Action("Index", "Home")'">Back To Home</button>
+                </div>
+            </form>
+        </div>
+        <div class="decoration decoration2"></div>
+    </div>
+    <script src="~/js/Loginscripts.js"></script>
+</body>
+</html>

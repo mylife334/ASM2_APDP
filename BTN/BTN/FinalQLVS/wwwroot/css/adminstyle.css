@@ -1,0 +1,192 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f5f6fa;
+}
+.container-scroller {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 240px;
+    background-color: #1c1b22
+    ;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar h2 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.sidebar .profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.sidebar .profile div {
+    font-size: 14px;
+    text-align: center;
+}
+.sidebar .profile div p {
+    margin: 0;
+}
+.sidebar .nav {
+    list-style: none;
+    padding: 0;
+}
+.sidebar .nav > li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+.sidebar .nav > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.sidebar .nav > li > a:hover {
+    background-color: #444;
+}
+.sidebar .nav .sub-menu {
+    display: none;
+    padding-left: 20px;
+}
+.sidebar .nav .active .sub-menu {
+    display: block;
+}
+.sidebar .nav .sub-menu li {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.sidebar .nav .sub-menu li a {
+    padding: 5px 10px;
+}
+.content-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+}
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header .welcome {
+    font-size: 18px;
+}
+.header .user-info {
+    display: flex;
+    align-items: center;
+    position: relative; /* Add relative positioning */
+    cursor: pointer;
+}
+.header .user-info img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.header .user-info .dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    z-index: 1000;
+}
+.header .user-info .dropdown a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.header .user-info .dropdown a:hover {
+    background-color: #f1f1f1;
+}
+.header .user-info:hover .dropdown {
+    display: block;
+}
+.search-section {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.search-section h3 {
+    margin-top: 0;
+}
+.search-section .search-box {
+    display: flex;
+    margin-top: 10px;
+}
+.search-section .search-box input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.search-section .search-box button {
+    padding: 10px 20px;
+    background-color: #1c1b22
+    ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.manage-section {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.manage-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.manage-section table thead {
+    background-color: #f1f1f1;
+}
+.manage-section table th, .manage-section table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.pagination li {
+    margin-right: 10px;
+}
+.pagination li a {
+    color: #1c1b22;
+    text-decoration: none;
+}
+.pagination li.disabled a {
+    color: #aaa;
+}

@@ -1,0 +1,295 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalQLVS
+build_property.RootNamespace = FinalQLVS
+build_property.ProjectDir = C:\Users\sdt08\OneDrive\Desktop\FinalQLVS\FinalQLVS\FinalQLVS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\sdt08\OneDrive\Desktop\FinalQLVS\FinalQLVS\FinalQLVS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Classes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Classes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Classes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Classes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Classes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Courses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Courses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Courses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Courses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Courses/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Courses/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Lectures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Lectures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Lectures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Lectures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Lectures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Login_page/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5fcGFnZVxBZG1pbkRhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Login_page/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5fcGFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Login_page/LeactureDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5fcGFnZVxMZWFjdHVyZURhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Login_page/StudentDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5fcGFnZVxTdHVkZW50RGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeClasses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeClasses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlQ2xhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeClasses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeClasses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeClasses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeLectures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlTGVjdHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeLectures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlTGVjdHVyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeLectures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlTGVjdHVyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeLectures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlTGVjdHVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/NoticeLectures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNlTGVjdHVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/Components/Navbar2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyMlxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/Components/Navbar3/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyM1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/Components/NavbarLeftAdmin/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyTGVmdEFkbWluXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/Components/NavbarLeftStudent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyTGVmdFN0dWRlbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/Components/Navbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Staffs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Staffs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Staffs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Staffs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Staffs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/SubjectCourses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENvdXJzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/SubjectCourses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENvdXJzZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/SubjectCourses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENvdXJzZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/SubjectCourses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENvdXJzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/SubjectCourses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENvdXJzZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/SubjectCourses/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENvdXJzZXNcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/SubjectCourses/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENvdXJzZXNcSW5kZXgzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/TimeTables/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/TimeTables/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/TimeTables/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/TimeTables/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/TimeTables/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/TimeTables/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlc1xJbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/TimeTables/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlc1xJbmRleDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sdt08/OneDrive/Desktop/FinalQLVS/FinalQLVS/FinalQLVS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sf2tnpacvo

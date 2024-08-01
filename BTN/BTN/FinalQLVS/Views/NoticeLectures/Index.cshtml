@@ -1,0 +1,53 @@
+﻿@model IEnumerable<FinalQLVS.Models.NoticeLecture>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LectureCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostedDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LectureCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostedDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NoticeLId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NoticeLId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NoticeLId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

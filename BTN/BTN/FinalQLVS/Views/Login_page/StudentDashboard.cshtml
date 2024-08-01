@@ -1,0 +1,277 @@
+﻿@{
+    ViewBag.Title = "Student Dashboard";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Students</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="~/css/adminstyle.css" asp-append-version="true" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            color: #333;
+            overflow: hidden;
+        }
+
+        .background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+
+        .container-scroller {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.6); /* Reduced opacity for the main container */
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 20px;
+            flex-direction: row;
+            align-items: flex-start;
+            z-index: 1;
+            position: relative;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: rgba(248, 187, 208, 0.8); /* Reduced opacity for sidebar */
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .sidebar h2 {
+                font-size: 40px;
+                color: #880e4f; /* Dark pink for text */
+                margin-bottom: 20px;
+            }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .profile p {
+                margin: 5px 0;
+                font-size: 15px;
+                color: #880e4f; /* Dark pink for text */
+            }
+
+        .nav {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+        }
+
+            .nav li {
+                margin: 10px 0;
+            }
+
+                .nav li a {
+                    text-decoration: none;
+                    color: #880e4f; /* Dark pink for text */
+                    font-size: 18px;
+                    display: block;
+                    padding: 10px;
+                    border-radius: 10px;
+                    transition: background 0.3s;
+                }
+
+                    .nav li a:hover {
+                        background-color: #fce4ec; /* Light pink on hover */
+                    }
+
+        .content-wrapper {
+            flex: 1;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Reduced opacity for content */
+            border-radius: 20px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 270px);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .welcome {
+            font-size: 2em;
+            color: #880e4f; /* Dark pink for text */
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+
+            .user-info img {
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+        .dropdown a {
+            text-decoration: none;
+            color: #880e4f; /* Dark pink for text */
+            font-size: 1em;
+            background-color: #f8bbd0; /* Light pink background */
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .search-section {
+            margin-bottom: 20px;
+        }
+
+            .search-section h3, .search-section h2 {
+                color: #880e4f; /* Dark pink for text */
+            }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            background-color: rgba(248, 187, 208, 0.8); /* Reduced opacity for search box */
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+            .search-box input {
+                border: none;
+                padding: 10px;
+                border-radius: 20px;
+                margin-right: 10px;
+                flex: 1;
+            }
+
+            .search-box button {
+                border: none;
+                background-color: #ec407a; /* Pink for button */
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+                .search-box button i {
+                    margin-right: 5px;
+                }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px; /* Rounded table corners */
+            overflow: hidden; /* Ensure rounded corners */
+            background-color: rgba(252, 228, 236, 0.8); /* Reduced opacity for table */
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #f8bbd0; /* Light pink for borders */
+        }
+
+        th {
+            background-color: rgba(248, 187, 208, 0.8); /* Reduced opacity for header */
+            color: #880e4f; /* Dark pink for text */
+        }
+
+        td {
+            background-color: rgba(255, 255, 255, 0.8); /* Reduced opacity for rows */
+            color: #880e4f; /* Dark pink for text */
+        }
+
+        .actions a {
+            margin-right: 8px;
+            text-decoration: none;
+            color: #880e4f; /* Dark pink for text */
+            font-size: 18px;
+        }
+
+            .actions a i {
+                margin-right: 5px;
+            }
+
+        .lolp {
+            color: #880e4f; /* Dark pink for text */
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .cute-icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .decoration {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: #ff66b2;
+            border-radius: 50%;
+        }
+
+        .decoration1 {
+            top: -25px;
+            left: -25px;
+        }
+
+        .decoration2 {
+            bottom: -25px;
+            right: -25px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="https://media.istockphoto.com/id/1202326081/vi/video/th%C3%BA-v%E1%BB%8B-m%C3%A8o-h%C3%A0i-h%C6%B0%E1%BB%9Bc-trong-c%E1%BA%B7p-k%C3%ADnh-m%C3%A0u-v%C3%A0ng-tr%C3%B2n-%C4%91%E1%BB%8Dc-m%E1%BB%99t-cu%E1%BB%91n-s%C3%A1ch-n%E1%BA%B1m-tr%C3%AAn-s%C3%A0n-g%E1%BB%97.mp4?s=mp4-640x640-is&k=20&c=ESvhD61YoUC-fsVh_9sJpMJ8YzbNNoA_f89P6V7b_oo=" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="container-scroller">
+        <div class="sidebar">
+            <h2>FPT BTEC</h2>
+            <ul class="nav">
+                @await Component.InvokeAsync("Navbar2")
+            </ul>
+        </div>
+        <div class="content-wrapper">
+            <div class="header">
+                <div class="welcome">Welcome Student</div>
+                <div class="user-info">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.yB1ovYcd74zhMJtMhVYO-wHaHa&pid=Api&P=0&h=180" alt="User Picture">
+                    <div class="dropdown">
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add other sections/content here as needed -->
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+<script src="~/js/adminscripts.js" asp-append-version="true"></script>
+</html>
